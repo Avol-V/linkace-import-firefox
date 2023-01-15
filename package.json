@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "name": "linkace-import-firefox",
+  "version": "1.0.0",
+  "description": "Import Firefox JSON bookmarks to https://www.linkace.org/",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avol-V/linkace-import-firefox.git"
+  },
+  "keywords": [
+    "bookmarks",
+    "firefox",
+    "linkace"
+  ],
+  "author": "Andrey Volynkin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Avol-V/linkace-import-firefox/issues"
+  },
+  "homepage": "https://github.com/Avol-V/linkace-import-firefox#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@types/pg": "^8.6.6"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "pg": "^8.8.0"
+  }
+}
